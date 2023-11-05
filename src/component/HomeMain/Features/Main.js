@@ -22,11 +22,12 @@ const Main = ({ video }) => {
               data-aos-delay="100"
             >
               <h2>
-                <span>Features</span> that makes app different!
+                <span>Get onboard</span> with streetz talk
               </h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typese
-                tting <br /> indus orem Ipsum has beenthe standard dummy.
+                Find out what’s happening around you in real time. Share and
+                make your streets come to live. <br /> Become a
+                Streetz influencer.
               </p>
             </div>
             <div className="feature_detail">
@@ -40,7 +41,7 @@ const Main = ({ video }) => {
                     <img src="assets/images/secure.png" alt="image" />
                   </div>
                   <div className="text">
-                    <h4>Secure data</h4>
+                    <h4>Streetz conversations</h4>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and type
                       setting indus ideas.
@@ -119,11 +120,12 @@ const Main = ({ video }) => {
               data-aos-delay="100"
             >
               <h2>
-                <span>Features</span> that makes app different!
+                <span>Get onboard</span> with streetz talk
               </h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typese
-                tting <br /> indus orem Ipsum has beenthe standard dummy.
+                Find out what’s happening around you in real time. Share and
+                make your streets come to live. <br /> Become a
+                Streetz influencer.
               </p>
             </div>
             <div className="feature_detail">
@@ -137,10 +139,10 @@ const Main = ({ video }) => {
                     <img src={img1} alt="image" />
                   </div>
                   <div className="text">
-                    <h4>Secure data</h4>
+                    <h4>Streetz conversations</h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and type
-                      setting indus ideas.
+                      Participate in Streets conversations specific to your
+                      communities. Tag conversations public or private.
                     </p>
                   </div>
                 </div>
@@ -153,10 +155,11 @@ const Main = ({ video }) => {
                     <img src={img2} alt="image" />
                   </div>
                   <div className="text">
-                    <h4>Fully functional</h4>
+                    <h4>Streetz trend</h4>
                     <p>
-                      Simply dummy text of the printing and typesetting indus
-                      lorem Ipsum is dummy.
+                      See what's trending in your immediate community and
+                      streets. Get to know what people are talking
+                      about in real time.
                     </p>
                   </div>
                 </div>
@@ -171,10 +174,11 @@ const Main = ({ video }) => {
                     <img src={img3} alt="image" />
                   </div>
                   <div className="text">
-                    <h4>Live chat</h4>
+                    <h4>Streetz corner</h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and type
-                      setting indus ideas.
+                      Create Streetz Corners for different conversations; street
+                      food, bad roads, light, security, water,
+                      food, employment etc.
                     </p>
                   </div>
                 </div>
@@ -187,10 +191,11 @@ const Main = ({ video }) => {
                     <img src={img4} alt="image" />
                   </div>
                   <div className="text">
-                    <h4>24-7 Support</h4>
+                    <h4>Setup Secondary Locations</h4>
                     <p>
-                      Simply dummy text of the printing and typesetting indus
-                      lorem Ipsum is dummy.
+                      Follow two extra locations to see what's happening in
+                      these location of interest. See what's trending
+                      in these locations
                     </p>
                   </div>
                 </div>
