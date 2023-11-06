@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import frame from "../../../assets/images/about-frame.png";
-import screen from "../../../assets/images/about-screen.png";
+import frame from "../../../assets/images/about-frame.jpg";
+import screen from "../../../assets/images/about-screen.jpg";
 import img1 from "../../../assets/images/download.png";
 import img2 from "../../../assets/images/followers.png";
 import img3 from "../../../assets/images/reviews.png";
@@ -10,7 +10,7 @@ import img4 from "../../../assets/images/countries.png";
 const Main = ({ video, dark }) => {
   return (
     <>
-      <section className="row_am about_app_section">
+      <section id="Streetztalk" className="row_am about_app_section">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -21,7 +21,7 @@ const Main = ({ video, dark }) => {
               >
                 <div className="frame_img">
                   <img
-                    className="moving_position_animatin"
+                    className="moving_position_animatin myaboutappimage"
                     src={frame}
                     alt="image"
                   />
@@ -40,13 +40,12 @@ const Main = ({ video, dark }) => {
                   data-aos-delay="100"
                 >
                   <h2>
-                    Some awesome words <span>about app.</span>
+                    Get started on <span>Streetz Talk.</span>
                   </h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry lorem Ipsum has been the industrys
-                    standard dummy text ever since the when an unknown printer
-                    took a galley of type and. Lorem ipsum dolor sit amet.
+                    Streetz talk is a public space for conversations within
+                    communities. It allows people to share, explore and be part
+                    of conversations trending within their local communities.
                   </p>
                 </div>
                 {dark ? (
@@ -92,10 +91,10 @@ const Main = ({ video, dark }) => {
                       </div>
                       <div className="text">
                         <p>
-                          <span className="counter-value" data-count="17">
+                          <span className="counter-value" data-count="2">
                             0
                           </span>
-                          <span>M+</span>
+                          <span>k+</span>
                         </p>
                         <p>Download</p>
                       </div>
@@ -113,10 +112,10 @@ const Main = ({ video, dark }) => {
                       </div>
                       <div className="text">
                         <p>
-                          <span className="counter-value" data-count="08">
-                            0{" "}
+                          <span className="counter-value" data-count="1">
+                            0{"1"}
                           </span>
-                          <span>M+</span>
+                          <span>k+</span>
                         </p>
                         <p>Followers</p>
                       </div>
@@ -134,7 +133,7 @@ const Main = ({ video, dark }) => {
                       </div>
                       <div className="text">
                         <p>
-                          <span className="counter-value" data-count="2300">
+                          <span className="counter-value" data-count="200">
                             1500
                           </span>
                           <span>+</span>
@@ -155,7 +154,7 @@ const Main = ({ video, dark }) => {
                       </div>
                       <div className="text">
                         <p>
-                          <span className="counter-value" data-count="150">
+                          <span className="counter-value" data-count="5">
                             0
                           </span>
                           <span>+</span>

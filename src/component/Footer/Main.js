@@ -18,7 +18,7 @@ const Main = ({ footer }) => {
               data-aos-duration="1500"
               data-aos-delay="100"
             >
-              <h2>Subscribe newsletter</h2>
+              <h2>Streetz Vibes newsletter</h2>
               <p>Be the first to recieve all latest post in your inbox</p>
             </div>
             <form
@@ -45,7 +45,7 @@ const Main = ({ footer }) => {
       {footer.f1 && (
         <footer>
           <div className="top_footer" id="contact">
-            <div className="anim_line dark_bg">
+            {/* <div className="anim_line dark_bg">
               <span>
                 <img src={line} alt="anim_line" />
               </span>
@@ -73,21 +73,21 @@ const Main = ({ footer }) => {
               <span>
                 <img src={line} alt="anim_line" />
               </span>
-            </div>
+            </div> */}
             <div className="container">
               <div className="row">
                 <div className="col-lg-4 col-md-6 col-12">
                   <div className="abt_side">
                     <div className="logo">
                       {" "}
-                      <img src={logo} alt="image" />
+                      {/* <img src={logo} alt="image" /> */}
                     </div>
                     <ul>
                       <li>
-                        <Link to="#">support@example.com</Link>
+                        <Link to="#">socials@streetztalk.xyz</Link>
                       </li>
                       <li>
-                        <Link to="#">+1-900-123 4567</Link>
+                        <Link to="#">+447927647558</Link>
                       </li>
                     </ul>
                     <ul className="social_media">
@@ -160,7 +160,7 @@ const Main = ({ footer }) => {
                 </div>
                 <div className="col-lg-2 col-md-6 col-12">
                   <div className="try_out">
-                    <h3>Let’s Try Out</h3>
+                    <h3>Get Streetz Talk</h3>
                     <ul className="app_btn">
                       <li>
                         <Link to="#">
@@ -240,7 +240,7 @@ const Main = ({ footer }) => {
                     </div>
                     <ul>
                       <li>
-                        <Link to="#">support@example.com</Link>
+                        <Link to="#">socials@streetztalk.xyz</Link>
                       </li>
                       <li>
                         <Link to="#">+1-900-123 4567</Link>
@@ -388,7 +388,7 @@ const Main = ({ footer }) => {
                     </div>
                     <ul>
                       <li>
-                        <Link to="#">support@example.com</Link>
+                        <Link to="#">socials@streetztalk.xyz</Link>
                       </li>
                       <li>
                         <Link to="#">+1-900-123 4567</Link>
@@ -532,7 +532,7 @@ const Main = ({ footer }) => {
                     </div>
                     <ul>
                       <li>
-                        <Link to="#">support@example.com</Link>
+                        <Link to="#">socials@streetztalk.xyz</Link>
                       </li>
                       <li>
                         <Link to="#">+1-900-123 4567</Link>

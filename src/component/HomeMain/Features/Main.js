@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "../../../assets/images/secure_data.png";
-import img2 from "../../../assets/images/functional.png";
-import img3 from "../../../assets/images/live-chat.png";
-import img4 from "../../../assets/images/support.png";
+import img1 from "../../../assets/images/streetzconversation.png";
+import img2 from "../../../assets/images/streetztrend.png";
+import img3 from "../../../assets/images/streetzcorner.png";
+import img4 from "../../../assets/images/streetzlocations.png";
 import img5 from "../../../assets/images/features_frame.png";
 import frame from "../../../assets/images/mobile_frame_svg.svg";
 
@@ -15,6 +15,7 @@ const Main = ({ video }) => {
           id="features"
         >
           <div className="container">
+            ~
             <div
               className="section_title"
               data-aos="fade-up"
@@ -38,7 +39,7 @@ const Main = ({ video }) => {
                   data-aos-duration="1500"
                 >
                   <div className="icon">
-                    <img src="assets/images/secure.png" alt="image" />
+                    <img src="assets/images/secure.jpg" alt="image" />
                   </div>
                   <div className="text">
                     <h4>Streetz conversations</h4>
@@ -201,12 +202,12 @@ const Main = ({ video }) => {
                 </div>
               </div>
               <div
-                className="feature_img"
+                className="feature_img feature_img22"
                 data-aos="fade-up"
                 data-aos-duration="1500"
                 data-aos-delay="100"
               >
-                <img src={frame} alt="image" />
+                <img src={img5} alt="image" />
               </div>
             </div>
           </div>

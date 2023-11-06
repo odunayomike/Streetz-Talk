@@ -20,12 +20,12 @@ import blueapp from "../../assets/images/appstore_blue.png";
 import whiteapp from "../../assets/images/appstore_white.png";
 import blue from "../../assets/images/googleplay_blue.png";
 import white from "../../assets/images/googleplay_white.png";
-import used1 from "../../assets/images/used01.png";
+import used1 from "../../assets/images/used01.jpg";
 import used2 from "../../assets/images/used02.png";
 import used3 from "../../assets/images/used03.png";
 import used4 from "../../assets/images/used04.png";
-import msg from "../../assets/images/message_icon.png";
-import shield from "../../assets/images/shield_icon.png";
+import msg from "../../assets/images/message_icon.jpg";
+import shield from "../../assets/images/shield_icon.jpg";
 import screen from "../../assets/images/screen.jpg";
 import screen2 from "../../assets/images/screen2.jpg";
 import screen3 from "../../assets/images/screen3.jpg";
@@ -204,7 +204,7 @@ const Main = ({ setfooter, setnavbar, setbrdcum }) => {
         </header> */}
       <section className="banner_section home-banner">
         <div className="container">
-          <div className="anim_line">
+          {/* <div className="anim_line">
             <span>
               <img src={anim} alt="anim_line" />
             </span>
@@ -232,7 +232,7 @@ const Main = ({ setfooter, setnavbar, setbrdcum }) => {
             <span>
               <img src={anim} alt="anim_line" />
             </span>
-          </div>
+          </div> */}
           <div className="row">
             <div
               className="col-lg-6 col-md-12"
@@ -263,7 +263,7 @@ const Main = ({ setfooter, setnavbar, setbrdcum }) => {
                   </Link>
                 </li>
               </ul>
-              <div className="used_app">
+              {/* <div className="used_app">
                 <ul>
                   <li>
                     <img src={used1} alt="image" />
@@ -281,7 +281,7 @@ const Main = ({ setfooter, setnavbar, setbrdcum }) => {
                 <p>
                   12M + <br /> used this app
                 </p>
-              </div>
+              </div> */}
             </div>
             <div
               className="col-lg-6 col-md-12"
@@ -343,13 +343,13 @@ const Main = ({ setfooter, setnavbar, setbrdcum }) => {
       <Features />
       <AboutApp />
       <Design />
-      <Work />
-      <Testimonial />
+      {/* <Work /> */}
+      {/* <Testimonial /> */}
       {/* <Pricing /> */}
-      <Faq />
+      {/* <Faq /> */}
       <Interface />
       <Download />
-      <Story />
+      {/* <Story /> */}
     </>
   );
 };

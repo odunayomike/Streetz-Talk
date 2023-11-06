@@ -53,29 +53,29 @@ const Main = ({ navbar }) => {
                         </Link>
                       </li>
                       <li className="nav-item has_dropdown">
-                        <Link to="/" className="nav-link">
+                        <Link to="/#Streetztalk" className="nav-link">
                           Streetz talk
                         </Link>
-                        <span className="drp_btn">
+                        {/* <span className="drp_btn">
                           <i className="icofont-rounded-down"></i>
                         </span>
                         <div className="sub_menu">
                           <ul>
                             <li>
-                              <Link to="/home-dark">About</Link>
+                              <Link to="/#streetztalk">About</Link>
                             </li>
                             <li>
-                              <Link to="/home-wave">Mission</Link>
+                              <Link to="/#streetztalk">Mission</Link>
                             </li>
                             <li>
-                              <Link to="/home-gredient">Streetz pledge</Link>
+                              <Link to="/#streetztalk">Streetz pledge</Link>
                             </li>
                           </ul>
-                        </div>
+                        </div> */}
                       </li>
                       <li className="nav-item">
-                        <Link smooth to="#how_it_work" className="nav-link">
-                          Streetz Corners
+                        <Link smooth to="/#features" className="nav-link">
+                          Get Onboard
                         </Link>
                       </li>
                       {/* <li className="nav-item has_dropdown">
@@ -115,8 +115,8 @@ const Main = ({ navbar }) => {
                         </div>
                       </li> */}
                       <li className="nav-item">
-                        <Link to="/pricing" className="nav-link">
-                          Streetz Trends
+                        <Link to="/#streetztrends" className="nav-link">
+                          Streetz Corner
                         </Link>
                       </li>
                       {/* <li className="nav-item has_dropdown">
@@ -138,12 +138,12 @@ const Main = ({ navbar }) => {
                         </div>
                       </li> */}
                       <li className="nav-item">
-                        <Link to="/contact" className="nav-link">
-                          Conversations
+                        <Link to="/#streetztrends" className="nav-link">
+                          Street Trends
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/contact" className="nav-link dark_btn">
+                        <Link to="/" className="nav-link mydownloadbtn">
                           DOWNLOAD
                         </Link>
                       </li>

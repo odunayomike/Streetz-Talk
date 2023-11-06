@@ -505,13 +505,13 @@ header.fixed .navbar {
   z-index: -1;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link.dark_btn::before {
+/* .navbar-expand-lg .navbar-nav .nav-link.dark_btn::before {
   animation: pulse-blue-medium-sm 3.5s infinite;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.dark_btn::after {
   animation: pulse-blue-small-sm 3.5s infinite;
-}
+} */
 
 .navbar-brand img {
   width: 150px;
@@ -799,14 +799,14 @@ header.fixed .navbar {
 
 .banner_section .banner_slider .left_icon {
   position: absolute;
-  left: 15px;
+  left: 22px;
   bottom: 70px;
   z-index: 9999;
 }
 
 .banner_section .banner_slider .right_icon {
   position: absolute;
-  right: 15px;
+  right: 31px;
   top: 70px;
 }
 
@@ -1050,7 +1050,7 @@ header.fixed .navbar {
   position: absolute;
   left: 0;
   top: 5px;
-  background-image: url(../images/right_icon.png);
+  background-image: url(../images/right_icon.jpg);
   width: 22px;
   height: 22px;
   background-repeat: no-repeat;
@@ -2471,13 +2471,13 @@ footer .top_footer .anim_line span:nth-child(2) {
   color: var(--purple);
 }
 
-.white_header .navbar-expand-lg .navbar-nav .nav-link.dark_btn::before {
+/* .white_header .navbar-expand-lg .navbar-nav .nav-link.dark_btn::before {
   animation: pulse-white-medium-sm 3.5s infinite;
 }
 
 .white_header .navbar-expand-lg .navbar-nav .nav-link.dark_btn::after {
   animation: pulse-white-small-sm 3.5s infinite;
-}
+} */
 
 header.fix_style.white_header {
   background-color: #664bece0;
@@ -4299,7 +4299,7 @@ header.fix_style.white_header {
   cursor: pointer;
 }
 .home-video .yt_video .thumbnil a .play_btn {
-  background-color: rgba(255, 255, 255, 0.1);
+  /* background-color: rgba(255, 255, 255, 0.1); */
   width: 96px;
   height: 96px;
   border-radius: 100px;
@@ -4448,7 +4448,7 @@ header.fix_style.white_header {
   width: 200px;
   height: 200px;
   position: relative;
-  box-shadow: 0px 4px 10px #492cc0;
+  /* box-shadow: 0px 4px 10px #492cc0; */
 }
 .video-work-two .step_block .step_box .step_number {
   position: absolute;
@@ -4517,7 +4517,7 @@ header.fix_style.white_header {
   color: var(--text-white);
 }
 .home-video-two .yt_video .thumbnil a .play_btn {
-  background-color: rgba(255, 255, 255, 0.1);
+  /* background-color: rgba(255, 255, 255, 0.1); */
   width: 96px;
   height: 96px;
   border-radius: 100px;
@@ -4609,4 +4609,55 @@ header.fix_style.white_header {
 
 .home-gredient .banner_images.image_box1 {
   text-align: right;
+}
+
+.myaboutappimage {
+  border: 2px solid;
+  border-radius: 32px;
+}
+.screen_img img {
+  border-radius: 25px !important;
+}
+.feature_img22 img {
+  border: 3px solid;
+  border-radius: 32px;
+}
+
+.feature_img22 {
+  margin-top: 85px !important;
+}
+.mydownloadbtn {
+  background: #f0349d;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 16px;
+  padding: 9px 40px;
+  margin-left: 50px;
+  position: relative;
+}
+.mydownloadbtn:hover {
+  color: #fff !important;
+}
+.used_app img {
+  border-radius: 50%;
+}
+.left_img img {
+  border-radius: 25px;
+}
+.right_img img {
+  border-radius: 25px;
+}
+
+.free_img img {
+  border-radius: 35px;
+  border: 10px solid;
+}
+.left_icon img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.right_icon img {
+  border-radius: 50%;
+  width: 100px;
 }
