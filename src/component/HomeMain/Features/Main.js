@@ -26,9 +26,9 @@ const Main = ({ video }) => {
                 <span>Get onboard</span> with streetz talk
               </h2>
               <p>
-                Find out what’s happening around you in real time. Share and
-                make your streets come to live. <br /> Become a
-                Streetz influencer.
+                Find out what’s happening around you in real time. Share fun and
+                useful information, make your streets come alive. <br /> Become
+                a Streetz influencer.
               </p>
             </div>
             <div className="feature_detail">
@@ -121,12 +121,12 @@ const Main = ({ video }) => {
               data-aos-delay="100"
             >
               <h2>
-                <span>Get onboard</span> with streetz talk
+                Its <span>all happening</span> on streetz talk
               </h2>
               <p>
-                Find out what’s happening around you in real time. Share and
-                make your streets come to live. <br /> Become a
-                Streetz influencer.
+                Find out what’s happening around you in real time. Share fun and
+                useful information, make your streets come alive. <br /> Become
+                a Streetz influencer
               </p>
             </div>
             <div className="feature_detail">

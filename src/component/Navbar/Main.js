@@ -53,7 +53,7 @@ const Main = ({ navbar }) => {
                         </Link>
                       </li>
                       <li className="nav-item has_dropdown">
-                        <Link to="/#Streetztalk" className="nav-link">
+                        <Link to="/#features" className="nav-link">
                           Streetz talk
                         </Link>
                         {/* <span className="drp_btn">
@@ -74,7 +74,7 @@ const Main = ({ navbar }) => {
                         </div> */}
                       </li>
                       <li className="nav-item">
-                        <Link smooth to="/#features" className="nav-link">
+                        <Link smooth to="/#getstarted" className="nav-link">
                           Get Onboard
                         </Link>
                       </li>
@@ -162,7 +162,7 @@ const Main = ({ navbar }) => {
                         <Link to="#" className="nav-link">
                           Home
                         </Link>
-                        <span className="drp_btn">
+                        {/* <span className="drp_btn">
                           <i className="icofont-rounded-down"></i>
                         </span>
                         <div
@@ -189,19 +189,19 @@ const Main = ({ navbar }) => {
                               <Link to="/home-video2">Home Video 2</Link>
                             </li>
                           </ul>
-                        </div>
+                        </div> */}
                       </li>
                       <li className="nav-item">
                         <Link smooth to="#features" className="nav-link">
-                          Features
+                          Streetz Talk
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link smooth to="#how_it_work" className="nav-link">
-                          How it works
+                        <Link smooth to="/#getstarted" className="nav-link">
+                          Get Onboard
                         </Link>
                       </li>
-                      <li
+                      {/* <li
                         className="nav-item has_dropdown"
                         onClick={() => setShow1(show1 === true ? false : true)}
                       >
@@ -242,13 +242,13 @@ const Main = ({ navbar }) => {
                             </li>
                           </ul>
                         </div>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
-                        <Link to="/pricing" className="nav-link">
-                          Pricing
+                        <Link to="/#streetztrends" className="nav-link">
+                          Streetz Corner
                         </Link>
                       </li>
-                      <li
+                      {/* <li
                         className="nav-item has_dropdown"
                         onClick={() => setShow2(show2 === true ? false : true)}
                       >
@@ -271,14 +271,14 @@ const Main = ({ navbar }) => {
                             </li>
                           </ul>
                         </div>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
-                        <Link to="/contact" className="nav-link">
-                          Contact
+                        <Link to="/#streetztrends" className="nav-link">
+                          Street Trends
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/contact" className="nav-link dark_btn">
+                        <Link to="/" className="nav-link dark_btn">
                           DOWNLOAD
                         </Link>
                       </li>

@@ -177,6 +177,15 @@
     color: var(--body-text-purple);
     justify-content: flex-end;
   }
+  .free_img {
+    margin-top: 0 !important;
+  }
+  .app_btn li {
+    margin-left: 0 !important;
+  }
+  .free_app_inner {
+    padding: 20px 70px !important;
+  }
   .white_header .toggle-bar {
     color: var(--text-white);
   }
