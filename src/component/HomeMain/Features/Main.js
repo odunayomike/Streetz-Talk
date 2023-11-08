@@ -121,7 +121,7 @@ const Main = ({ video }) => {
               data-aos-delay="100"
             >
               <h2>
-                Its <span>all happening</span> on streetz talk
+                It's <span>all happening</span> on streetz talk
               </h2>
               <p>
                 Find out what’s happening around you in real time. Share fun and

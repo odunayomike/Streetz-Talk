@@ -18,7 +18,7 @@ const Main = ({ footer }) => {
               data-aos-duration="1500"
               data-aos-delay="100"
             >
-              <h2>Streetz Vibes newsletter</h2>
+              <h2>Streetz Vibes</h2>
               <p>Be the first to recieve all latest post in your inbox</p>
             </div>
             <form

@@ -26,7 +26,7 @@ const Main = ({ navbar }) => {
             <header>
               <div className="container">
                 <nav className="navbar navbar-expand-lg">
-                  <Link to="/" className="navbar-brand">
+                  <Link to="/#" className="navbar-brand">
                     <img src={logo1} alt="image" />
                   </Link>
                   <button
@@ -48,13 +48,13 @@ const Main = ({ navbar }) => {
                   <div className="collapse navbar-collapse">
                     <ul className="navbar-nav ml-auto">
                       <li className="nav-item">
-                        <Link smooth to="/" className="nav-link">
+                        <Link smooth to="/#" className="nav-link">
                           Home
                         </Link>
                       </li>
                       <li className="nav-item has_dropdown">
-                        <Link to="/#features" className="nav-link">
-                          Streetz talk
+                        <Link to="/#streetztalk" className="nav-link">
+                          Streetz Talk
                         </Link>
                         {/* <span className="drp_btn">
                           <i className="icofont-rounded-down"></i>
@@ -115,7 +115,7 @@ const Main = ({ navbar }) => {
                         </div>
                       </li> */}
                       <li className="nav-item">
-                        <Link to="/#streetztrends" className="nav-link">
+                        <Link to="/#features" className="nav-link">
                           Streetz Corner
                         </Link>
                       </li>
@@ -139,7 +139,7 @@ const Main = ({ navbar }) => {
                       </li> */}
                       <li className="nav-item">
                         <Link to="/#streetztrends" className="nav-link">
-                          Street Trends
+                          Streetz Trend
                         </Link>
                       </li>
                       <li className="nav-item">
@@ -159,7 +159,7 @@ const Main = ({ navbar }) => {
                         className="nav-item has_dropdown"
                         onClick={() => setShow(show === true ? false : true)}
                       >
-                        <Link to="#" className="nav-link">
+                        <Link to="/#" className="nav-link">
                           Home
                         </Link>
                         {/* <span className="drp_btn">
@@ -192,7 +192,7 @@ const Main = ({ navbar }) => {
                         </div> */}
                       </li>
                       <li className="nav-item">
-                        <Link smooth to="#features" className="nav-link">
+                        <Link smooth to="/#streetztalk" className="nav-link">
                           Streetz Talk
                         </Link>
                       </li>
@@ -273,8 +273,8 @@ const Main = ({ navbar }) => {
                         </div>
                       </li> */}
                       <li className="nav-item">
-                        <Link to="/#streetztrends" className="nav-link">
-                          Street Trends
+                        <Link to="/#features" className="nav-link">
+                          Streetz Trend
                         </Link>
                       </li>
                       <li className="nav-item">
@@ -295,7 +295,7 @@ const Main = ({ navbar }) => {
             <header className="white_header fix_style fixed">
               <div className="container">
                 <nav className="navbar navbar-expand-lg">
-                  <Link to="/" className="navbar-brand">
+                  <Link to="/#" className="navbar-brand">
                     <img src={logo} alt="image" />
                   </Link>
                   <button
@@ -320,7 +320,7 @@ const Main = ({ navbar }) => {
                   >
                     <div className="navbar-nav ml-auto">
                       <li className="nav-item has_dropdown">
-                        <Link to="#" className="nav-link">
+                        <Link to="/#" className="nav-link">
                           Home{" "}
                         </Link>
                         <span

@@ -10,7 +10,7 @@ import img4 from "../../../assets/images/countries.png";
 const Main = ({ video, dark }) => {
   return (
     <>
-      <section id="Streetztalk" className="row_am about_app_section">
+      <section id="streetztrends" className="row_am about_app_section">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
