@@ -257,10 +257,10 @@ const Main = ({ setfooter, setnavbar, setbrdcum }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <a href="https://play.google.com/store/apps/details?id=com.nbstreetztalk">
                     <img className="blue_img" src={blue} alt="image" />
                     <img className="white_img" src={white} alt="image" />
-                  </Link>
+                  </a>
                 </li>
               </ul>
               {/* <div className="used_app">

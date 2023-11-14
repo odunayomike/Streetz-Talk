@@ -164,14 +164,14 @@ const Main = ({ video, dark }) => {
                     </li>
                   </ul>
                 )}
-                <Link
-                  to="/"
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.nbstreetztalk"
                   className="btn puprple_btn"
                   data-aos="fade-in"
                   data-aos-duration="1500"
                 >
                   DOWNLOAD APP NOW
-                </Link>
+                </a>
               </div>
             </div>
           </div>

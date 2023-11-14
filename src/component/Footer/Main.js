@@ -168,9 +168,9 @@ const Main = ({ footer }) => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <a href="https://play.google.com/store/apps/details?id=com.nbstreetztalk">
                           <img src={blue} alt="image" />
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -771,12 +771,12 @@ const Main = ({ footer }) => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <a href="https://play.google.com/store/apps/details?id=com.nbstreetztalk">
                           <img
                             src="assets/images/googleplay_blue.png"
                             alt="image"
                           />
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>

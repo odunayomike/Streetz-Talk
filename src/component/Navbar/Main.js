@@ -143,9 +143,12 @@ const Main = ({ navbar }) => {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/" className="nav-link mydownloadbtn">
+                        <a
+                          href="https://play.google.com/store/apps/details?id=com.nbstreetztalk"
+                          className="nav-link mydownloadbtn"
+                        >
                           DOWNLOAD
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -278,9 +281,12 @@ const Main = ({ navbar }) => {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/" className="nav-link dark_btn">
+                        <a
+                          href="https://play.google.com/store/apps/details?id=com.nbstreetztalk"
+                          className="nav-link dark_btn"
+                        >
                           DOWNLOAD
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>

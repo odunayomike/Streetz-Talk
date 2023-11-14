@@ -66,9 +66,9 @@ const Main = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="https://play.google.com/store/apps/details?id=com.nbstreetztalk">
                         <img src={blue} alt="image" />
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
