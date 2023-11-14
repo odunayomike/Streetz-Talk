@@ -66,7 +66,10 @@ const Main = () => {
                       </Link>
                     </li>
                     <li>
-                      <a href="https://play.google.com/store/apps/details?id=com.nbstreetztalk">
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.nbstreetztalk"
+                        target="_blank"
+                      >
                         <img src={blue} alt="image" />
                       </a>
                     </li>

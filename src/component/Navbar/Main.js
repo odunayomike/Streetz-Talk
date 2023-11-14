@@ -146,6 +146,7 @@ const Main = ({ navbar }) => {
                         <a
                           href="https://play.google.com/store/apps/details?id=com.nbstreetztalk"
                           className="nav-link mydownloadbtn"
+                          target="_blank"
                         >
                           DOWNLOAD
                         </a>
@@ -284,6 +285,7 @@ const Main = ({ navbar }) => {
                         <a
                           href="https://play.google.com/store/apps/details?id=com.nbstreetztalk"
                           className="nav-link dark_btn"
+                          target="_blank"
                         >
                           DOWNLOAD
                         </a>

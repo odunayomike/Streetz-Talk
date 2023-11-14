@@ -257,7 +257,10 @@ const Main = ({ setfooter, setnavbar, setbrdcum }) => {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://play.google.com/store/apps/details?id=com.nbstreetztalk">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.nbstreetztalk"
+                    target="_blank"
+                  >
                     <img className="blue_img" src={blue} alt="image" />
                     <img className="white_img" src={white} alt="image" />
                   </a>

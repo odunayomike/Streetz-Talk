@@ -169,6 +169,7 @@ const Main = ({ video, dark }) => {
                   className="btn puprple_btn"
                   data-aos="fade-in"
                   data-aos-duration="1500"
+                  target="_blank"
                 >
                   DOWNLOAD APP NOW
                 </a>
