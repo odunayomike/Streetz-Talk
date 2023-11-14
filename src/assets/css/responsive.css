@@ -177,6 +177,18 @@
     color: var(--body-text-purple);
     justify-content: flex-end;
   }
+  .feature_img22 {
+    display: none;
+  }
+  .section_title {
+    width: 100% !important;
+  }
+  .newsletter_box form {
+    width: 100% !important;
+  }
+  .form-control {
+    width: 100% !important;
+  }
   .free_img {
     margin-top: 0 !important;
   }

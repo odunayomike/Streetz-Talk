@@ -119,19 +119,19 @@ const Main = ({ footer }) => {
                     <h3>Useful Links</h3>
                     <ul>
                       <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/#">Home</Link>
                       </li>
                       <li>
-                        <Link to="/about">Streetz Talk</Link>
+                        <Link to="/#streetztalk">Streetz Talk</Link>
                       </li>
                       <li>
-                        <Link to="#">Streetz Trends</Link>
+                        <Link to="/#streetztrends">Streetz Trends</Link>
                       </li>
                       <li>
-                        <Link to="/blog">Streetz Corner</Link>
+                        <Link to="/#features">Streetz Corner</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Conversations</Link>
+                        <Link to="/#getstarted">Get Onboard</Link>
                       </li>
                     </ul>
                   </div>
@@ -141,19 +141,19 @@ const Main = ({ footer }) => {
                     <h3>Help & Suport</h3>
                     <ul>
                       <li>
-                        <Link to="/faq">Site Terms & Policies</Link>
+                        <Link to="/#">Site Terms & Policies</Link>
                       </li>
                       <li>
-                        <Link to="#">community Standards</Link>
+                        <Link to="/#">community Standards</Link>
                       </li>
                       <li>
-                        <Link to="/work">Privacy Policy</Link>
+                        <Link to="/#">Privacy Policy</Link>
                       </li>
                       <li>
-                        <Link to="#">Terms & conditions</Link>
+                        <Link to="/#">Terms & conditions</Link>
                       </li>
                       <li>
-                        <Link to="#">Cookie policy</Link>
+                        <Link to="/#">Cookie policy</Link>
                       </li>
                     </ul>
                   </div>
@@ -182,7 +182,7 @@ const Main = ({ footer }) => {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <p>© Copyrights 2022. All rights reserved.</p>
+                  <p>© Copyrights 2023. All rights reserved.</p>
                 </div>
                 {/* <div className="col-md-6">
                   <p className="developer_text">
@@ -212,10 +212,10 @@ const Main = ({ footer }) => {
             <div className="container">
               <span className="banner_shape1">
                 {" "}
-                <img
+                {/* <img
                   src="assets/images/banner-shape-one1.png"
                   alt="image"
-                />{" "}
+                />{" "} */}
               </span>
               <span className="banner_shape2">
                 {" "}
@@ -275,19 +275,19 @@ const Main = ({ footer }) => {
                     <h3>Useful Links</h3>
                     <ul>
                       <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/#">Home</Link>
                       </li>
                       <li>
-                        <Link to="/about">About us</Link>
+                        <Link to="/#streetztalk">Streetz Talk</Link>
                       </li>
                       <li>
-                        <Link to="#">Services</Link>
+                        <Link to="/#streetztrends">Streetz Trends</Link>
                       </li>
                       <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/#features">Streetz Corner</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact us</Link>
+                        <Link to="/#getstarted">Get Onboard</Link>
                       </li>
                     </ul>
                   </div>
@@ -297,19 +297,19 @@ const Main = ({ footer }) => {
                     <h3>Help & Suport</h3>
                     <ul>
                       <li>
-                        <Link to="/faq">FAQs</Link>
+                        <Link to="/#">Site Terms & Policies</Link>
                       </li>
                       <li>
-                        <Link to="#">Support</Link>
+                        <Link to="/#">community Standards</Link>
                       </li>
                       <li>
-                        <Link to="/work">How it works</Link>
+                        <Link to="/#">Privacy Policy</Link>
                       </li>
                       <li>
-                        <Link to="#">Terms & conditions</Link>
+                        <Link to="/#">Terms & conditions</Link>
                       </li>
                       <li>
-                        <Link to="#">Privacy policy</Link>
+                        <Link to="/#">Cookie policy</Link>
                       </li>
                     </ul>
                   </div>
@@ -344,7 +344,7 @@ const Main = ({ footer }) => {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <p>© Copyrights 2022. All rights reserved.</p>
+                  <p>© Copyrights 2023. All rights reserved.</p>
                 </div>
                 {/* <div className="col-md-6">
                   <p className="developer_text">
@@ -372,7 +372,7 @@ const Main = ({ footer }) => {
         <footer className="gredient-footer">
           <div className="footer_bg">
             {" "}
-            <img src="assets/images/section-bg.png" alt="image" />{" "}
+            {/* <img src="assets/images/section-bg.png" alt="image" />{" "} */}
           </div>
           <div className="top_footer" id="contact">
             <div className="container">
@@ -381,10 +381,10 @@ const Main = ({ footer }) => {
                   <div className="abt_side">
                     <div className="logo">
                       {" "}
-                      <img
+                      {/* <img
                         src="assets/images/footer_logo-one.png"
                         alt="image"
-                      />
+                      /> */}
                     </div>
                     <ul>
                       <li>
@@ -423,19 +423,19 @@ const Main = ({ footer }) => {
                     <h3>Useful Links</h3>
                     <ul>
                       <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/#">Home</Link>
                       </li>
                       <li>
-                        <Link to="/about">About us</Link>
+                        <Link to="/#streetztalk">Streetz Talk</Link>
                       </li>
                       <li>
-                        <Link to="#">Services</Link>
+                        <Link to="/#streetztrends">Streetz Trends</Link>
                       </li>
                       <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/#features">Streetz Corner</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact us</Link>
+                        <Link to="/#getstarted">Get Onboard</Link>
                       </li>
                     </ul>
                   </div>
@@ -446,19 +446,19 @@ const Main = ({ footer }) => {
                     <h3>Help & Suport</h3>
                     <ul>
                       <li>
-                        <Link to="/faq">FAQs</Link>
+                        <Link to="/#">Site Terms & Policies</Link>
                       </li>
                       <li>
-                        <Link to="#">Support</Link>
+                        <Link to="/#">community Standards</Link>
                       </li>
                       <li>
-                        <Link to="/work">How it works</Link>
+                        <Link to="/#">Privacy Policy</Link>
                       </li>
                       <li>
-                        <Link to="#">Terms & conditions</Link>
+                        <Link to="/#">Terms & conditions</Link>
                       </li>
                       <li>
-                        <Link to="#">Privacy policy</Link>
+                        <Link to="/#">Cookie policy</Link>
                       </li>
                     </ul>
                   </div>
@@ -494,7 +494,7 @@ const Main = ({ footer }) => {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <p>© Copyrights 2022. All rights reserved.</p>
+                  <p>© Copyrights 2023. All rights reserved.</p>
                 </div>
                 {/* <div className="col-md-6">
                   <p className="developer_text">
@@ -567,19 +567,19 @@ const Main = ({ footer }) => {
                     <h3>Useful Links</h3>
                     <ul>
                       <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/#">Home</Link>
                       </li>
                       <li>
-                        <Link to="/about">About us</Link>
+                        <Link to="/#streetztalk">Streetz Talk</Link>
                       </li>
                       <li>
-                        <Link to="#">Services</Link>
+                        <Link to="/#streetztrends">Streetz Trends</Link>
                       </li>
                       <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/#features">Streetz Corner</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact us</Link>
+                        <Link to="/#getstarted">Get Onboard</Link>
                       </li>
                     </ul>
                   </div>
@@ -590,19 +590,19 @@ const Main = ({ footer }) => {
                     <h3>Help & Suport</h3>
                     <ul>
                       <li>
-                        <Link to="/faq">FAQs</Link>
+                        <Link to="/#">Site Terms & Policies</Link>
                       </li>
                       <li>
-                        <Link to="#">Support</Link>
+                        <Link to="/#">community Standards</Link>
                       </li>
                       <li>
-                        <Link to="/work">How it works</Link>
+                        <Link to="/#">Privacy Policy</Link>
                       </li>
                       <li>
-                        <Link to="#">Terms & conditions</Link>
+                        <Link to="/#">Terms & conditions</Link>
                       </li>
                       <li>
-                        <Link to="#">Privacy policy</Link>
+                        <Link to="/#">Cookie policy</Link>
                       </li>
                     </ul>
                   </div>
@@ -638,7 +638,7 @@ const Main = ({ footer }) => {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <p>© Copyrights 2022. All rights reserved.</p>
+                  <p>© Copyrights 2023. All rights reserved.</p>
                 </div>
                 {/* <div className="col-md-6">
                   <p className="developer_text">
@@ -719,19 +719,19 @@ const Main = ({ footer }) => {
                     <h3>Useful Links</h3>
                     <ul>
                       <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/#">Home</Link>
                       </li>
                       <li>
-                        <Link to="/about">About us</Link>
+                        <Link to="/#streetztalk">Streetz Talk</Link>
                       </li>
                       <li>
-                        <Link to="#">Services</Link>
+                        <Link to="/#streetztrends">Streetz Trends</Link>
                       </li>
                       <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/#features">Streetz Corner</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact us</Link>
+                        <Link to="/#getstarted">Get Onboard</Link>
                       </li>
                     </ul>
                   </div>
@@ -741,19 +741,19 @@ const Main = ({ footer }) => {
                     <h3>Help & Suport</h3>
                     <ul>
                       <li>
-                        <Link to="/faq">FAQs</Link>
+                        <Link to="/#">Site Terms & Policies</Link>
                       </li>
                       <li>
-                        <Link to="#">Support</Link>
+                        <Link to="/#">community Standards</Link>
                       </li>
                       <li>
-                        <Link to="/work">How it works</Link>
+                        <Link to="/#">Privacy Policy</Link>
                       </li>
                       <li>
-                        <Link to="#">Terms & conditions</Link>
+                        <Link to="/#">Terms & conditions</Link>
                       </li>
                       <li>
-                        <Link to="#">Privacy policy</Link>
+                        <Link to="/#">Cookie policy</Link>
                       </li>
                     </ul>
                   </div>

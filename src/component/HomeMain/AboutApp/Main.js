@@ -165,7 +165,7 @@ const Main = ({ video, dark }) => {
                   </ul>
                 )}
                 <Link
-                  to="/contact"
+                  to="/"
                   className="btn puprple_btn"
                   data-aos="fade-in"
                   data-aos-duration="1500"

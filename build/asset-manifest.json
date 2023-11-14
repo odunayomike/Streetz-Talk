@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e470bb0.css",
-    "main.js": "/static/js/main.f40e809a.js",
+    "main.css": "/static/css/main.7f3cd9cc.css",
+    "main.js": "/static/js/main.de2b48ff.js",
     "static/media/icofont.woff": "/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/yt_thumb.png": "/static/media/yt_thumb.47240700bdb779673c31.png",
@@ -91,11 +91,11 @@
     "static/media/mobile_frame_svg.svg": "/static/media/mobile_frame_svg.bd306644e0cd7a8703982c51b3b68328.svg",
     "static/media/banner-shape-video.svg": "/static/media/banner-shape-video.8daea7706d90bed5beba.svg",
     "static/media/inner_page_ovelay_cross-one.svg": "/static/media/inner_page_ovelay_cross-one.72574ebeaa88c6cd4d42.svg",
-    "main.7e470bb0.css.map": "/static/css/main.7e470bb0.css.map",
-    "main.f40e809a.js.map": "/static/js/main.f40e809a.js.map"
+    "main.7f3cd9cc.css.map": "/static/css/main.7f3cd9cc.css.map",
+    "main.de2b48ff.js.map": "/static/js/main.de2b48ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e470bb0.css",
-    "static/js/main.f40e809a.js"
+    "static/css/main.7f3cd9cc.css",
+    "static/js/main.de2b48ff.js"
   ]
 }
