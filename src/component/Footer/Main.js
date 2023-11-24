@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
+import { useState } from "react";
 import line from "../../assets/images/anim_line.png";
 import blueapp from "../../assets/images/appstore_blue.png";
 import blue from "../../assets/images/googleplay_blue.png";
@@ -7,6 +8,36 @@ import logo from "../../assets/images/footer_logo.png";
 import top from "../../assets/images/go_top.png";
 
 const Main = ({ footer }) => {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const apiUrl = "https://streetztalk.xyz/api/subscribe.php";
+
+    try {
+      const response = await fetch(apiUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setMessage({ type: "success", text: data.message });
+      } else {
+        const data = await response.json();
+        setMessage({ type: "error", text: data.error });
+      }
+    } catch (error) {
+      setMessage({
+        type: "error",
+        text: "An error occurred while processing your request.",
+      });
+    }
+  };
   return (
     <>
       <section className="newsletter_section">
@@ -22,22 +53,38 @@ const Main = ({ footer }) => {
               <p>Be the first to recieve all latest post in your inbox</p>
             </div>
             <form
-              action=""
+              onSubmit={handleSubmit}
               data-aos="fade-in"
               data-aos-duration="1500"
               data-aos-delay="100"
+              method="POST"
             >
               <div className="form-group">
                 <input
                   type="email"
                   className="form-control"
                   placeholder="Enter your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <div className="form-group">
-                <button className="btn">SUBMIT</button>
+                <button type="submit" className="btn">
+                  SUBMIT
+                </button>
               </div>
             </form>
+            {message && (
+              <div
+                className={
+                  message.type === "success"
+                    ? "success-message"
+                    : "error-message"
+                }
+              >
+                {message.text}
+              </div>
+            )}
           </div>
         </div>
       </section>
