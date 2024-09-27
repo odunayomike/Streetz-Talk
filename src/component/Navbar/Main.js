@@ -138,18 +138,14 @@ const Main = ({ navbar }) => {
                         </div>
                       </li> */}
                       <li className="nav-item">
-                        <Link to="/#streetztrends" className="nav-link">
+                        <Link to="/#streetztrends" className="nav-link"  >
                           Streetz Trend
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <a
-                          href="https://play.google.com/store/apps/details?id=com.nbstreetztalk"
-                          className="nav-link mydownloadbtn"
-                          target="_blank"
-                        >
+                       <Link to="/#getstarted" className="nav-link mydownloadbtn">
                           DOWNLOAD
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

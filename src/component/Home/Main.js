@@ -251,7 +251,7 @@ const Main = ({ setfooter, setnavbar, setbrdcum }) => {
               </div>
               <ul className="app_btn">
                 <li>
-                  <Link to="#">
+                  <Link to="https://apps.apple.com/app/streetz-talk/id6624314826">
                     <img className="blue_img" src={blueapp} alt="image" />
                     <img className="white_img" src={whiteapp} alt="image" />
                   </Link>

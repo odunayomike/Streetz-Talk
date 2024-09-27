@@ -61,7 +61,7 @@ const Main = () => {
                   </div>
                   <ul className="app_btn">
                     <li>
-                      <Link to="#">
+                      <Link to="https://apps.apple.com/app/streetz-talk/id6624314826">
                         <img src={blueapp} alt="image" />
                       </Link>
                     </li>
